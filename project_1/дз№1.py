@@ -177,28 +177,3 @@ print(f'Средняя оценка студентов за курс GIT: {avera
 print(f'Средняя оценка студентов за курс Python: {average_rating_hw(student_list, "Python")}')
 print(f'Средняя оценка лекторов за курс Python: {average_rating_lesson(lecturer_list, "Python")}')
 print(f'Средняя оценка лекторов за курс GIT: {average_rating_lesson(lecturer_list, "GIT")}')
-# создай объект класса лектор и сделай тоже , что и с менторами!!!
-
-
-# student_1 = Student('Dmitrii', 'Enin', 'men')
-# student_1.courses_in_progress += ['Python']
-# # print(student_1.__dict__)
-# student_2 = Student('Larisa', 'Mischsuk', 'woman')
-# student_2.courses_in_progress += ['Python']
-# # print(student_2.__dict__)
-# reviewer_1 = Reviewer('Vasy', 'Pupkin')
-# reviewer_1.courses_attached += ['Python']
-# reviewer_1.rate_hw(student_1, 'Python', 9)
-# # print(student_1.grades)
-# reviewer_2 = Reviewer('Arcadii', 'Parovosov')
-# reviewer_2.courses_attached += ['Python']
-# reviewer_2.rate_hw(student_2, 'Python', 7)
-# # print(student_2.grades)
-# lecturer_1 = Lecturer('Ivan', 'Petrov')
-# lecturer_1.courses_attached += ['Python']
-# student_1.rate_lc(lecturer_1, 'Python', 8)
-# print(lecturer_1.grades)
-# lecturer_2 = Lecturer('Alexandr', 'Matrosov')
-# lecturer_2.courses_attached += ['Python']
-# student_2.rate_lc(lecturer_2, 'Python', 7)
-# print(lecturer_2.grades)
